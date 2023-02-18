@@ -1,1 +1,73 @@
+body {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  color: #163152;
+}
 
+a {
+  color: #163152;
+  text-decoration: none;
+}
+
+.site-navigation-item a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-size: 44px;
+  line-height: 60px;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.blog-article time {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.blog-article h2 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.contacts h2 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.contacts h3 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contacts address {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: normal;
+}
+
+.contacts a {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.main-footer h2 {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.main-footer p {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.footer-navigation-item a {
+  font-size: 14px;
+  line-height: 16px;
+}
