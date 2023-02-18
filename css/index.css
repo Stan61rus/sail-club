@@ -24,7 +24,7 @@ a {
   text-transform: uppercase;
 }
 
-.blog-article time {
+.blog-article .time {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -33,11 +33,21 @@ a {
 .blog-article h2 {
   font-size: 24px;
   line-height: 34px;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
 }
 
 .contacts h2 {
   font-size: 24px;
   line-height: 34px;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
 }
 
 .contacts h3 {
@@ -45,9 +55,13 @@ a {
   line-height: 22px;
 }
 
-.contacts address {
+.contacts li.contact-item {
   font-size: 16px;
   line-height: 22px;
+  font-style: normal;
+}
+
+address {
   font-style: normal;
 }
 
