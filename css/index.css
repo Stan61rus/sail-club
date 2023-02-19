@@ -40,6 +40,66 @@ a {
   text-underline-position: under;
 }
 
+.news h2 {
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #00c6bd;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+  text-underline-position: under;
+}
+
+.news figcaption {
+  font-size: 16px;
+  line-height: 19px;
+  color: #8693a4;
+}
+
+.news h3 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.news p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.news h4 {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.news .command-item {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+p .line {
+  text-decoration: line-through;
+}
+
+blockquote .blockquote {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 36px;
+}
+
+blockquote cite {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  font-style: normal;
+}
+
+blockquote time {
+  font-size: 16px;
+  line-height: 19px;
+  color: #8693a4;
+}
+
 .contacts h2 {
   font-size: 24px;
   line-height: 34px;
