@@ -18,7 +18,7 @@ a {
 
 .page-header {
   width: 1170px;
-  margin: 0;
+  margin: 0 auto;
   padding: 20px 55px;
   margin-bottom: 40px;
 }
@@ -42,12 +42,45 @@ a {
   width: 559px;
 }
 
-.hero h1 {
+.main-content {
+  width: 1170px;
+  padding: 0 55px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.hero {
+  margin-bottom: 120px;
+}
+
+.hero-title {
   font-size: 44px;
   line-height: 60px;
   font-style: italic;
   font-weight: normal;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.blog-article {
+  width: 1030px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 100px auto;
+}
+
+.blog-article-last {
+  flex-direction: row-reverse;
+  margin-bottom: 120px;
+}
+
+.blog-article-img {
+  width: 600px;
+}
+
+.blog-article-contet {
+  width: 400px;
 }
 
 .blog-article .time {
@@ -56,7 +89,7 @@ a {
   text-transform: uppercase;
 }
 
-.blog-article h2 {
+.news-title {
   font-size: 24px;
   line-height: 34px;
   text-decoration: underline;
@@ -64,6 +97,22 @@ a {
   text-decoration-thickness: 2px;
   text-underline-offset: 15px;
   text-underline-position: under;
+}
+
+.news {
+  width: 770px;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.news-figure {
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.news-h3 {
+  margin: 0;
 }
 
 .news h2 {
@@ -75,6 +124,11 @@ a {
   text-decoration-thickness: 2px;
   text-underline-offset: 15px;
   text-underline-position: under;
+  margin: 0 0 40px 0;
+}
+
+blockquote {
+  margin: 0;
 }
 
 .news figcaption {
@@ -126,6 +180,21 @@ blockquote time {
   color: #8693a4;
 }
 
+.contacts {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 1170px;
+}
+
+.contacts-img {
+  width: 670px;
+}
+
+.contacts-content {
+  width: 400px;
+}
+
 .contacts h2 {
   font-size: 24px;
   line-height: 34px;
@@ -154,6 +223,36 @@ address {
 .contacts a {
   font-size: 16px;
   line-height: 22px;
+}
+
+.main-footer {
+  margin: 0 auto;
+  display: flex;
+  padding: 60px 0;
+}
+
+.footer-container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navigation-topics {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 870px;
+  justify-content: space-between;
+}
+
+.main-footer h2 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
 }
 
 .main-footer h2 {
