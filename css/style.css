@@ -1,97 +1,28 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #163152;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: #163152;
-  text-decoration: none;
+  background-color: #fdfdff;
 }
 
 .site-navigation-item a {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+  color: #163152;
+  text-decoration: none;
 }
 
-.page-header {
-  width: 1170px;
-  margin: 0 auto;
-  padding: 20px 55px;
-  margin-bottom: 40px;
-}
-
-.main-nav {
-  width: 1170px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  margin: 0;
-  width: 64px;
-}
-
-.site-navigation {
-  margin: 0;
-  margin-left: auto;
-  margin-right: 40px;
-  width: 559px;
-}
-
-.main-content {
-  width: 1170px;
-  padding: 0 55px;
-  margin: 0 auto;
-  margin-bottom: 120px;
-}
-
-.hero {
-  margin-bottom: 120px;
-}
-
-.hero-title {
-  font-size: 44px;
-  line-height: 60px;
+.hero h1 {
   font-style: italic;
   font-weight: normal;
-  text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 40px;
-}
-
-.blog-article {
-  width: 1030px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto 100px auto;
-}
-
-.blog-article-last {
-  flex-direction: row-reverse;
-  margin-bottom: 120px;
-}
-
-.blog-article-img {
-  width: 600px;
-}
-
-.blog-article-contet {
-  width: 400px;
-}
-
-.blog-article .time {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 44px;
+  line-height: 60px;
   text-transform: uppercase;
 }
 
-.news-title {
+.blog-article h2 {
   font-size: 24px;
   line-height: 34px;
   text-decoration: underline;
@@ -101,20 +32,10 @@ a {
   text-underline-position: under;
 }
 
-.news {
-  width: 770px;
-  padding: 0;
-  margin: 0 auto;
-  margin-bottom: 120px;
-}
-
-.post-img {
-  margin: 0;
-  margin-bottom: 33px;
-}
-
-.news-h3 {
-  margin: 0;
+.blog-article-date {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
 }
 
 .news h2 {
@@ -126,75 +47,56 @@ a {
   text-decoration-thickness: 2px;
   text-underline-offset: 15px;
   text-underline-position: under;
-  margin: 0 0 55px 0;
 }
 
-blockquote {
-  margin: 0;
-}
-
-.news figcaption {
+.post-img figcaption {
   font-size: 16px;
   line-height: 19px;
   color: #8693a4;
 }
 
-.news h3 {
+.post h3 {
   font-size: 22px;
   line-height: 26px;
 }
 
-.news p {
+.post p {
   font-size: 18px;
   line-height: 26px;
 }
 
-.news h4 {
+.post h4 {
   font-size: 20px;
   line-height: 26px;
 }
 
-.news .command-item {
+.post ul {
   font-size: 18px;
   line-height: 26px;
 }
 
-p .line {
-  text-decoration: line-through;
+.post ins {
+  text-decoration: none;
 }
 
-blockquote .blockquote {
+.post blockquote {
   font-weight: bold;
   font-size: 26px;
   line-height: 36px;
 }
 
-blockquote cite {
-  font-weight: bold;
+.post-meta a {
   font-size: 16px;
   line-height: 19px;
-  font-style: normal;
+  font-weight: bold;
+  color: #163152;
+  text-decoration: none;
 }
 
-blockquote time {
+.post-meta time {
   font-size: 16px;
   line-height: 19px;
   color: #8693a4;
-}
-
-.contacts {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  width: 1170px;
-}
-
-.contacts-img {
-  width: 670px;
-}
-
-.contacts-content {
-  width: 400px;
 }
 
 .contacts h2 {
@@ -207,68 +109,47 @@ blockquote time {
   text-underline-position: under;
 }
 
-.contacts h3 {
+.contact-item {
   font-size: 16px;
   line-height: 22px;
 }
 
-.contacts li.contact-item {
+.contact-item h3 {
   font-size: 16px;
   line-height: 22px;
+}
+
+.contact-item address {
   font-style: normal;
 }
 
-address {
-  font-style: normal;
-}
-
-.contacts a {
-  font-size: 16px;
-  line-height: 22px;
+.contact-item a {
+  color: #163152;
+  text-decoration: none;
 }
 
 .main-footer {
-  margin: 0 auto;
-  display: flex;
-  padding: 60px 0;
-}
-
-.footer-container {
-  width: 1170px;
-  margin: 0 auto;
-  padding: 0 55px;
-  display: flex;
-  justify-content: space-between;
+  font-size: 10px;
+  line-height: 12px;
 }
 
 .footer-navigation-topics {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  width: 870px;
-  justify-content: space-between;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-.main-footer h2 {
-  margin: 0;
-}
-
-.main-footer ul {
-  list-style: none;
-}
-
-.main-footer h2 {
+.footer-navigation-topic h2 {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
 }
 
-.main-footer p {
-  font-size: 10px;
-  line-height: 12px;
+.footer-navigation-item a {
+  color: #163152;
+  text-decoration: none;
 }
 
-.footer-navigation-item a {
-  font-size: 14px;
-  line-height: 16px;
+.policy a {
+  color: #163152;
+  text-decoration: none;
 }
