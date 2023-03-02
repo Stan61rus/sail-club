@@ -201,7 +201,13 @@ body {
   margin-bottom: 100px;
 }
 
+.blog-article h2 {
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
 .blog-article.last {
+  flex-direction: row-reverse;
   margin-bottom: 120px;
 }
 
