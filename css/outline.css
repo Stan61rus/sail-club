@@ -58,14 +58,15 @@ body > * > * > * > * > * > *::after {
   pointer-events: none;
 }
 
-
 /* 1 уровень сеточных блоков */
 
 body > *::before,
 body > *::after,
 body > img {
   z-index: 1;
-  --outline-alpha-1: calc(var(--outline-1-enabled, 0) * var(--outlines-shown, 0));
+  --outline-alpha-1: calc(
+    var(--outline-1-enabled, 0) * var(--outlines-shown, 0)
+  );
 }
 
 body > *::before {
@@ -92,7 +93,9 @@ body > * > *::before,
 body > * > *::after,
 body > * > img {
   z-index: 2;
-  --outline-alpha-2: calc(var(--outline-2-enabled, 0) * var(--outlines-shown, 0));
+  --outline-alpha-2: calc(
+    var(--outline-2-enabled, 0) * var(--outlines-shown, 0)
+  );
 }
 
 body > * > *::before {
@@ -113,14 +116,15 @@ body > * > img {
   outline-offset: -2px;
 }
 
-
 /* 3 уровень сеточных блоков */
 
 body > * > * > *::before,
 body > * > * > *::after,
 body > * > * > img {
   z-index: 3;
-  --outline-alpha-3: calc(var(--outline-3-enabled, 0) * var(--outlines-shown, 0));
+  --outline-alpha-3: calc(
+    var(--outline-3-enabled, 0) * var(--outlines-shown, 0)
+  );
 }
 
 body > * > * > *::before {
@@ -147,7 +151,9 @@ body > * > * > * > *::before,
 body > * > * > * > *::after,
 body > * > * > * > img {
   z-index: 4;
-  --outline-alpha-4: calc(var(--outline-4-enabled, 0) * var(--outlines-shown, 0));
+  --outline-alpha-4: calc(
+    var(--outline-4-enabled, 0) * var(--outlines-shown, 0)
+  );
 }
 
 body > * > * > * > *::before {
@@ -168,13 +174,14 @@ body > * > * > * > img {
   outline-offset: -2px;
 }
 
-
 /* 5 уровень сеточных блоков */
 body > * > * > * > * > *::before,
 body > * > * > * > * > *::after,
 body > * > * > * > * > img {
   z-index: 5;
-  --outline-alpha-5: calc(var(--outline-5-enabled, 0) * var(--outlines-shown, 0));
+  --outline-alpha-5: calc(
+    var(--outline-5-enabled, 0) * var(--outlines-shown, 0)
+  );
 }
 
 body > * > * > * > * > *::before {
@@ -200,7 +207,9 @@ body > * > * > * > * > * > *::before,
 body > * > * > * > * > * > *::after,
 body > * > * > * > * > * > img {
   z-index: 6;
-  --outline-alpha-6: calc(var(--outline-6-enabled, 0) * var(--outlines-shown, 0));
+  --outline-alpha-6: calc(
+    var(--outline-6-enabled, 0) * var(--outlines-shown, 0)
+  );
 }
 
 body > * > * > * > * > * > *::before {
