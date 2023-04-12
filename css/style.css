@@ -599,7 +599,6 @@ body {
 }
 
 .services-image {
-  margin: 30px;
   margin-bottom: 21px;
 }
 
@@ -607,21 +606,24 @@ body {
   font-size: 20px;
   line-height: 23px;
   margin: 0;
-  margin-left: 30px;
   margin-bottom: 18px;
 }
 
 .services-description {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0;
   margin-bottom: 15px;
   font-size: 14px;
   line-height: 24px;
 }
 
+.card-yacht-list {
+  list-style-type: disc;
+  margin-bottom: 29px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
 .price {
-  margin: 30px;
-  margin-top: 0;
   display: flex;
   justify-content: space-between;
 
@@ -631,8 +633,6 @@ body {
   line-height: 21px;
 }
 
-.card-yacht-list {
-  list-style-type: disc;
-  padding: 0;
-  margin-left: 30px;
+.services-container {
+  margin: 30px;
 }
